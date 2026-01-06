@@ -1,0 +1,4 @@
+Celebrity database - CelebA or VGG-Face2
+Pass each celebrity through the model to get an embedding of their face
+Store these vectors in some vector database (.npy file)
+When a user uploads a photo, convert their face into a vector and find the nearest celebrity vector using COSINE DISTANCE
