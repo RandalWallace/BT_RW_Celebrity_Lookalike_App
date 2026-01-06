@@ -1,1 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    text-align: center;
+    color: #333;
+}
 
+header {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 3rem 1rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.member {
+    background: #eee;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+}
+
+button {
+    background-color: #6e8efb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
