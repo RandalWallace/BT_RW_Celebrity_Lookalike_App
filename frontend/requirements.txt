@@ -1,1 +1,5 @@
+List of libraries used:
+Pytorch - for training models and stuff
+Deepface (Python library that wraps models like FaceNet, VGG-Face, ArcFace into one line of code) (handles face detection in a messy photo,
+straightens the head automatically)
 
