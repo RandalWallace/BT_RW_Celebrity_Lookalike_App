@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Which celebrity do you look like?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header>
+        <h1>Which celebrity do you look like?</h1>
+        <p>Discover your celebrity doppelgänger using Deep Learning.</p>
+    </header>
+
+    <main>
+        <section id="upload-section">
+            <div class="card">
+                <h3>Try it out</h3>
+                <p>Upload a photo or take a selfie to find your match.</p>
+                <input type="file" id="imageUpload" accept="image/*" capture="user">
+                <div id="preview-container">
+                    <img id="imagePreview" src="#" alt="Your Preview" style="display:none; max-width: 100%;">
+                </div>
+                <button id="analyzeBtn">Find My Twin</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>The Creators</h2>
+            <div class="team-container">
+                <div class="member">
+                    <h4>Randal Wallace</h4>
+                    <a href="https://www.linkedin.com/in/randal-wallace-3a91a1246" target="_blank">LinkedIn</a>
+                </div>
+                <div class="member">
+                    <h4>Blake Travers</h4>
+                    <a href="[Friend-LinkedIn-URL]" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CelebTwin Project | Built with FastAPI & DeepFace</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
